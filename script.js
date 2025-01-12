@@ -8,7 +8,7 @@ function changeColor() {
     colorIndex = (colorIndex + 1) % colors.length;
 }
 
-const miniSeconds =10000;
+const MINISECONDS =10000;
 function toggleColor() {
     clearInterval(intervalId);
     changeColor();
